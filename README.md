@@ -1,11 +1,11 @@
 Description
 ===========
-unRAID Docker Templates repository for Docker images in the "binhex" repository.
+unRAID Docker Templates repository for Docker images in the "madsonic" repository.
 
 Installation
 ============
 1. Navigate to "Extensions" and then "Docker" in the unRAID webui
-2. Enter in a URL of https://github.com/binhex/docker-templates in the "Template repositories" field
+2. Enter in a URL of https://github.com/MadMarty/docker-templates in the "Template repositories" field
 3. Click on the "Save" button
 4. Click back to "Extensions" menu and then click on the "Add" button
 5. Click on the "Template" dropdown menu and select the desired Docker image
