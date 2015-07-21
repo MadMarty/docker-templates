@@ -13,7 +13,7 @@
   <Overview>
     Madsonic is a full replacement for your current Subsonic server!, Madsonic is designed for people who want more from the vanilla Subsonic features.
   </Overview>
-  <Support>http://lime-technology.com/forum/index.php?topic=38055.0</Support>
+  <Support>http://forum.madsonic.org/</Support>
   <Registry>https://registry.hub.docker.com/u/madevil/arch-madsonic/</Registry>
   <GitHub>https://github.com/MadMarty/arch-madsonic</GitHub>
   <Repository>madevil/arch-madsonic</Repository>
@@ -54,5 +54,5 @@
   </Data>
   <WebUI>http://[IP]:[PORT:4040]/</WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/madsonic-icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/MadMarty/docker-templates/master/madsonic/images/madsonic-icon.png</Icon>
 </Containers>
