@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Beta>true</Beta>
+<Category>MediaServer:Music</Category>
+  <Name>arch-madsonic</Name>
+  <Description>
+    Madsonic is a full replacement for your current Subsonic server!, Madsonic is designed for people who want more from the vanilla Subsonic features.[br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where madsonic will store it's configuration file, database and logs.[br]
+    [b]/media[/b] This is where madsonic will scan for media files.[br][br]
+    [b]Note[/b] If you wish to use HTTP then please set the Environment Variable "SSL" to "no", otherwise set to "yes" to enable HTTPS.
+  </Description>
+  <Overview>
+    Madsonic is a full replacement for your current Subsonic server!, Madsonic is designed for people who want more from the vanilla Subsonic features.
+  </Overview>
+  <Support>http://forum.madsonic.org/</Support>
+  <Registry>https://registry.hub.docker.com/u/madsonic/debian-madsonic/</Registry>
+  <GitHub>https://github.com/MadMarty/debian-madsonic</GitHub>
+  <Repository>madsonic/debian-madsonic</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>4040</HostPort>
+        <ContainerPort>4040</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>4050</HostPort>
+        <ContainerPort>4050</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>SSL</Name>
+      <Value>yes</Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir>path to config</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>path to media</HostDir>
+      <ContainerDir>/media</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>  	
+  </Data>
+  <WebUI>http://[IP]:[PORT:4040]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/MadMarty/docker-templates/master/madsonic/images/madsonic-icon.png</Icon>
+</Containers>
