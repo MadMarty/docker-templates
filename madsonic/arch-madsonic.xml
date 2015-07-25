@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-<Beta>False</Beta>
+<Beta>true</Beta>
 <Category>MediaServer:Music</Category>
   <Name>arch-madsonic</Name>
   <Description>
