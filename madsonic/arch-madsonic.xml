@@ -14,9 +14,9 @@
     Madsonic is a full replacement for your current Subsonic server!, Madsonic is designed for people who want more from the vanilla Subsonic features.
   </Overview>
   <Support>http://forum.madsonic.org/</Support>
-  <Registry>https://registry.hub.docker.com/u/madevil/arch-madsonic/</Registry>
+  <Registry>https://registry.hub.docker.com/u/madsonic/arch-madsonic/</Registry>
   <GitHub>https://github.com/MadMarty/arch-madsonic</GitHub>
-  <Repository>madevil/arch-madsonic</Repository>
+  <Repository>madsonic/arch-madsonic</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
