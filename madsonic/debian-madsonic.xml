@@ -2,7 +2,7 @@
 <Containers>
 <Beta>true</Beta>
 <Category>MediaServer:Music</Category>
-  <Name>arch-madsonic</Name>
+  <Name>debian-madsonic</Name>
   <Description>
     Madsonic is a full replacement for your current Subsonic server!, Madsonic is designed for people who want more from the vanilla Subsonic features.[br][br]
     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
